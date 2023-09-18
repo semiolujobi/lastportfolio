@@ -40,3 +40,4 @@ class ExtracurricularView(generic.ListView):
 class ExtracurricularDetailView(generic.DetailView):
 	model = Extracurricular
 	template_name = "main/extracurricular-detail.html"
+

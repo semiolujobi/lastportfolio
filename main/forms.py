@@ -30,3 +30,5 @@ class ContactForm(forms.ModelForm):
 	class Meta:
 		model = ContactProfile
 		fields = ('name', 'email', 'subject', 'message',)
+
+
